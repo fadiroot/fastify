@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "backport-6929-to-5.x",
+    "backport-7054-to-5.x",
+    "docs/security-unvalidated-template-paths",
+    "fix/set-cookie-array-copy",
+    "jsumners-patch-1",
+    "main",
+    "origin",
+    "perf/validation-errors-without-stack"
+  ],
+  "parent": {
+    "backport-6929-to-5.x": "main",
+    "backport-7054-to-5.x": "main",
+    "docs/security-unvalidated-template-paths": "main",
+    "fix/set-cookie-array-copy": "main",
+    "jsumners-patch-1": "main",
+    "main": null,
+    "origin": "main",
+    "perf/validation-errors-without-stack": "main"
+  },
+  "order": [
+    "main",
+    "backport-6929-to-5.x",
+    "backport-7054-to-5.x",
+    "docs/security-unvalidated-template-paths",
+    "fix/set-cookie-array-copy",
+    "jsumners-patch-1",
+    "origin",
+    "perf/validation-errors-without-stack"
+  ]
+}
